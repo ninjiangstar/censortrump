@@ -5,6 +5,10 @@
 body {
 	/* For example */
 	padding: 20px;
-	height: 250px;
-	width: 400px;
+}
+
+ul, li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
