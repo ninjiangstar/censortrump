@@ -2,7 +2,7 @@
 
 inject();
 
-document.addEventListener('DOMSubtreeModified', inject);
+document.addEventListener('DOMNodeInserted', inject);
 
 function inject() {
 	chrome.storage.local.get('textReplacement', function (response) {
